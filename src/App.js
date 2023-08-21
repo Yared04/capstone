@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { CardContainer } from "./components/CardContainer";
+import Herosection from "./components/Herosection";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
-      <p>Home</p>
+      <Nav />
+      <Herosection />
+      <CardContainer />
     </div>
   );
 }
